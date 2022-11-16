@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C575B14E292477AA00A93014 /* StudySoilgroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C575B14D292477AA00A93014 /* StudySoilgroundApp.swift */; };
+		C575B150292477AA00A93014 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C575B14F292477AA00A93014 /* ContentView.swift */; };
+		C575B152292477AB00A93014 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C575B151292477AB00A93014 /* Assets.xcassets */; };
+		C575B155292477AB00A93014 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C575B154292477AB00A93014 /* Preview Assets.xcassets */; };
+		C575B15F292477AB00A93014 /* StudySoilgroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C575B15E292477AB00A93014 /* StudySoilgroundTests.swift */; };
+		C575B169292477AB00A93014 /* StudySoilgroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C575B168292477AB00A93014 /* StudySoilgroundUITests.swift */; };
+		C575B16B292477AB00A93014 /* StudySoilgroundUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C575B16A292477AB00A93014 /* StudySoilgroundUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C575B15B292477AB00A93014 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C575B142292477AA00A93014 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C575B149292477AA00A93014;
+			remoteInfo = StudySoilground;
+		};
+		C575B165292477AB00A93014 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C575B142292477AA00A93014 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C575B149292477AA00A93014;
+			remoteInfo = StudySoilground;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C575B14A292477AA00A93014 /* StudySoilground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudySoilground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C575B14D292477AA00A93014 /* StudySoilgroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudySoilgroundApp.swift; sourceTree = "<group>"; };
+		C575B14F292477AA00A93014 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C575B151292477AB00A93014 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C575B154292477AB00A93014 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C575B15A292477AB00A93014 /* StudySoilgroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudySoilgroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C575B15E292477AB00A93014 /* StudySoilgroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudySoilgroundTests.swift; sourceTree = "<group>"; };
+		C575B164292477AB00A93014 /* StudySoilgroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudySoilgroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C575B168292477AB00A93014 /* StudySoilgroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudySoilgroundUITests.swift; sourceTree = "<group>"; };
+		C575B16A292477AB00A93014 /* StudySoilgroundUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudySoilgroundUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C575B147292477AA00A93014 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C575B157292477AB00A93014 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C575B161292477AB00A93014 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C575B141292477AA00A93014 = {
+			isa = PBXGroup;
+			children = (
+				C575B14C292477AA00A93014 /* StudySoilground */,
+				C575B15D292477AB00A93014 /* StudySoilgroundTests */,
+				C575B167292477AB00A93014 /* StudySoilgroundUITests */,
+				C575B14B292477AA00A93014 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C575B14B292477AA00A93014 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C575B14A292477AA00A93014 /* StudySoilground.app */,
+				C575B15A292477AB00A93014 /* StudySoilgroundTests.xctest */,
+				C575B164292477AB00A93014 /* StudySoilgroundUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C575B14C292477AA00A93014 /* StudySoilground */ = {
+			isa = PBXGroup;
+			children = (
+				C575B14D292477AA00A93014 /* StudySoilgroundApp.swift */,
+				C575B14F292477AA00A93014 /* ContentView.swift */,
+				C575B151292477AB00A93014 /* Assets.xcassets */,
+				C575B153292477AB00A93014 /* Preview Content */,
+			);
+			path = StudySoilground;
+			sourceTree = "<group>";
+		};
+		C575B153292477AB00A93014 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C575B154292477AB00A93014 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C575B15D292477AB00A93014 /* StudySoilgroundTests */ = {
+			isa = PBXGroup;
+			children = (
+				C575B15E292477AB00A93014 /* StudySoilgroundTests.swift */,
+			);
+			path = StudySoilgroundTests;
+			sourceTree = "<group>";
+		};
+		C575B167292477AB00A93014 /* StudySoilgroundUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C575B168292477AB00A93014 /* StudySoilgroundUITests.swift */,
+				C575B16A292477AB00A93014 /* StudySoilgroundUITestsLaunchTests.swift */,
+			);
+			path = StudySoilgroundUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C575B149292477AA00A93014 /* StudySoilground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C575B16E292477AB00A93014 /* Build configuration list for PBXNativeTarget "StudySoilground" */;
+			buildPhases = (
+				C575B146292477AA00A93014 /* Sources */,
+				C575B147292477AA00A93014 /* Frameworks */,
+				C575B148292477AA00A93014 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StudySoilground;
+			productName = StudySoilground;
+			productReference = C575B14A292477AA00A93014 /* StudySoilground.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C575B159292477AB00A93014 /* StudySoilgroundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C575B171292477AB00A93014 /* Build configuration list for PBXNativeTarget "StudySoilgroundTests" */;
+			buildPhases = (
+				C575B156292477AB00A93014 /* Sources */,
+				C575B157292477AB00A93014 /* Frameworks */,
+				C575B158292477AB00A93014 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C575B15C292477AB00A93014 /* PBXTargetDependency */,
+			);
+			name = StudySoilgroundTests;
+			productName = StudySoilgroundTests;
+			productReference = C575B15A292477AB00A93014 /* StudySoilgroundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C575B163292477AB00A93014 /* StudySoilgroundUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C575B174292477AB00A93014 /* Build configuration list for PBXNativeTarget "StudySoilgroundUITests" */;
+			buildPhases = (
+				C575B160292477AB00A93014 /* Sources */,
+				C575B161292477AB00A93014 /* Frameworks */,
+				C575B162292477AB00A93014 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C575B166292477AB00A93014 /* PBXTargetDependency */,
+			);
+			name = StudySoilgroundUITests;
+			productName = StudySoilgroundUITests;
+			productReference = C575B164292477AB00A93014 /* StudySoilgroundUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C575B142292477AA00A93014 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					C575B149292477AA00A93014 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					C575B159292477AB00A93014 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = C575B149292477AA00A93014;
+					};
+					C575B163292477AB00A93014 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = C575B149292477AA00A93014;
+					};
+				};
+			};
+			buildConfigurationList = C575B145292477AA00A93014 /* Build configuration list for PBXProject "StudySoilground" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C575B141292477AA00A93014;
+			productRefGroup = C575B14B292477AA00A93014 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C575B149292477AA00A93014 /* StudySoilground */,
+				C575B159292477AB00A93014 /* StudySoilgroundTests */,
+				C575B163292477AB00A93014 /* StudySoilgroundUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C575B148292477AA00A93014 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C575B155292477AB00A93014 /* Preview Assets.xcassets in Resources */,
+				C575B152292477AB00A93014 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C575B158292477AB00A93014 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C575B162292477AB00A93014 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C575B146292477AA00A93014 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C575B150292477AA00A93014 /* ContentView.swift in Sources */,
+				C575B14E292477AA00A93014 /* StudySoilgroundApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C575B156292477AB00A93014 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C575B15F292477AB00A93014 /* StudySoilgroundTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C575B160292477AB00A93014 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C575B16B292477AB00A93014 /* StudySoilgroundUITestsLaunchTests.swift in Sources */,
+				C575B169292477AB00A93014 /* StudySoilgroundUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C575B15C292477AB00A93014 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C575B149292477AA00A93014 /* StudySoilground */;
+			targetProxy = C575B15B292477AB00A93014 /* PBXContainerItemProxy */;
+		};
+		C575B166292477AB00A93014 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C575B149292477AA00A93014 /* StudySoilground */;
+			targetProxy = C575B165292477AB00A93014 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C575B16C292477AB00A93014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C575B16D292477AB00A93014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C575B16F292477AB00A93014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StudySoilground/Preview Content\"";
+				DEVELOPMENT_TEAM = W97GTPRX7R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tangpie.StudySoilground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C575B170292477AB00A93014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StudySoilground/Preview Content\"";
+				DEVELOPMENT_TEAM = W97GTPRX7R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tangpie.StudySoilground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C575B172292477AB00A93014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W97GTPRX7R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tangpie.StudySoilgroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudySoilground.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StudySoilground";
+			};
+			name = Debug;
+		};
+		C575B173292477AB00A93014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W97GTPRX7R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tangpie.StudySoilgroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudySoilground.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StudySoilground";
+			};
+			name = Release;
+		};
+		C575B175292477AB00A93014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W97GTPRX7R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tangpie.StudySoilgroundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StudySoilground;
+			};
+			name = Debug;
+		};
+		C575B176292477AB00A93014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W97GTPRX7R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tangpie.StudySoilgroundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StudySoilground;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C575B145292477AA00A93014 /* Build configuration list for PBXProject "StudySoilground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C575B16C292477AB00A93014 /* Debug */,
+				C575B16D292477AB00A93014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C575B16E292477AB00A93014 /* Build configuration list for PBXNativeTarget "StudySoilground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C575B16F292477AB00A93014 /* Debug */,
+				C575B170292477AB00A93014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C575B171292477AB00A93014 /* Build configuration list for PBXNativeTarget "StudySoilgroundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C575B172292477AB00A93014 /* Debug */,
+				C575B173292477AB00A93014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C575B174292477AB00A93014 /* Build configuration list for PBXNativeTarget "StudySoilgroundUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C575B175292477AB00A93014 /* Debug */,
+				C575B176292477AB00A93014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C575B142292477AA00A93014 /* Project object */;
+}
